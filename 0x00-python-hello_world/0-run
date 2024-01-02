@@ -1,6 +1,2 @@
 #!/bin/bash
-
-# Shell script to run a Python script
-
-# Replace 'your_python_script.py' with the actual name of your Python script
-python3 "$PYFILE"
+python3 $PYFILE

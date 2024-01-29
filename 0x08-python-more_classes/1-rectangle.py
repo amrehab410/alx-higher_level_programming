@@ -11,8 +11,8 @@ class Rectangle:
             width (int): The size of the new square.
             height (int): The size of the new square.
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
 
 @property

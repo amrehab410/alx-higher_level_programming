@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     cur = db.cursor()
     cur.execute("SELECT * FROM states;")
-    states = cur.fetchall()
+    statess = cur.fetchall()
 
     for state in states:
-        print(state)
+        print(states)
